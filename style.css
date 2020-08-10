@@ -1,0 +1,69 @@
+a{
+    color:blue;
+}
+
+#container{ 
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 370px;
+    align-items: center;
+    }
+    
+    .earth {
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+      }
+      
+      .earth:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: -20px -20px 50px 2px #000 inset;
+        border-radius: 50%;
+      }
+      
+      .earth > div {
+        width: 200%;
+        height: 100%;
+        animation: spin 30s linear alternate-reverse infinite;
+        background: url(https://lh3.googleusercontent.com/proxy/G6gKi2RT6JDqlnk4yXaxEFcSrB8ZN7AbARfL8BI4Epnfs4m8M7XAe2CP-SebspsTjoLJdtpq65wTe4uqNrexyfePXp0h6lVnyU5xln0Zu60eCOTQKTKOFw);
+        /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+        background-size: cover;
+      }
+      @keyframes spin {
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      
+ul {
+     list-style-type: none;
+     margin: 0;
+    padding: 0;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    }
+    
+li {
+    border:1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    }
