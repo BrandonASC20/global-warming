@@ -15,3 +15,8 @@ function myFunction() {
       }
     }
   }
+
+ let myButton=document.getElementById("submit");
+ myButton.on("click",function(e){
+    e.preventDefault();
+ })

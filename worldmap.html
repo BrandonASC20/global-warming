@@ -12,7 +12,7 @@
         <header>
             <nav>
             <div id= "header">
-                <p center><a href ="index.html">Home</a> | <a href = "worldmap.html">Earth</a> | Facts || Contact us</p>
+                <p center><a href ="index.html">Home</a> | <a href = "worldmap.html">Earth</a> | Facts || <a href="index.html/#bottom">Contact Us</a></p>
             </div>
         </header>
     
@@ -32,16 +32,19 @@
 
                   </div>        
             </article>
-<div id="buttonmarker">
-    <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Continents</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a href="#home">Africa</a>
-      <a href="#about">Asia</a>
-      <a href="#contact">Australia</a>
-      <a href="#home">Europe</a>
-      <a href="#about">North America</a>
-      <a href="#contact">South America</a>
+            <form id="continents">
+                <label for="continents">Choose a continent</label>
+                <select name="continents">
+                  <option value="africa">Africa</option>
+                  <option value="australia">Australia</option>
+                  <option value="asia">Asia</option>
+                  <option value="europe">Europe</option>
+                  <option value="northamerica">North America</option>
+                  <option value="southamerica">South America</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit" id="submit">
+              </form>
 
     </div></div>            
 
