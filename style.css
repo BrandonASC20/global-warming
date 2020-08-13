@@ -45,7 +45,7 @@ small{
         margin-top:200px;
         margin-left:50px;
         overflow: hidden;
-        background-image:url(https://map-projections.net/img/jpg/natural-earth.jpg?ft=59bfd52f);
+        background-image:url(https://www.nnvl.noaa.gov/images/globaldata/SnowIceCover_Daily.png);
         border-radius: 50%;
         box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
       }
